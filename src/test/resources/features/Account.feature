@@ -1,4 +1,4 @@
-@current 
+@regression @automation 
 Feature: Account function
 Scenario: Varify create new account into the Sales Force
 Given user opens a browser 
