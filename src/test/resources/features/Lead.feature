@@ -1,4 +1,4 @@
-@currentt 
+@current 
 Feature: Lead function
 Scenario: Varify creating a new lead into the Sales Force
 Given user opens a browser 
@@ -11,5 +11,5 @@ And user clicks on new button
 And user enters "Ash" as last name
 And user enters "Wells Fargo Bank" as company
 And user clicks on Save button
-#And user validates newly created Lead
+#And user validates newly created lead "Ash"
 Then user logs out of the current application 
